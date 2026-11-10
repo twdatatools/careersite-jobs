@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "careersite-jobs"
+version = "0.1.0"
+description = "Search job listings from Greenhouse, Lever, Ashby, SmartRecruiters and Workday career sites via Apify actors. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "TW Data Tools" }]
+keywords = ["jobs", "job-search", "greenhouse", "lever", "ashby", "smartrecruiters", "workday", "apify", "scraper", "api", "careers"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+]
+
+[project.scripts]
+careersite-jobs = "careersite_jobs.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
