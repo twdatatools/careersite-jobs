@@ -10,7 +10,7 @@ from .client import (
     ApiError,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = [
     "JobsClient", "Job", "CareersiteError", "MissingTokenError", "AuthError",
     "InsufficientCreditError", "RateLimitError", "ApiError", "__version__",

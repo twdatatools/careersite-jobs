@@ -59,8 +59,14 @@ Clear exceptions: `MissingTokenError`, `AuthError` (401), `InsufficientCreditErr
 | `ashby()` | [ashby-jobs-api](https://apify.com/appley_rhodolite/ashby-jobs-api) |
 | `lever()` | [lever-jobs-api](https://apify.com/appley_rhodolite/lever-jobs-api) |
 | `workday()` | [workday-jobs-live](https://apify.com/appley_rhodolite/workday-jobs-live) |
-| `hn()` | hn-toolkit (available soon) |
-| `trends()` | trends-now-multigeo (available soon) |
+| `hn()` | [hn-toolkit](https://apify.com/appley_rhodolite/hn-toolkit) |
+| `trends()` | [trends-now-multigeo](https://apify.com/appley_rhodolite/trends-now-multigeo) |
+
+## Links
+
+- Browse the open job index: https://open-career-index.printfilestudio.workers.dev/
+- No Apify account? Free REST API over the same index: https://career-index-api.printfilestudio.workers.dev/
+- Source and issues: https://github.com/twdatatools/careersite-jobs
 
 ## License
 

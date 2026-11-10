@@ -17,8 +17,8 @@ ACTORS = {
     "ashby": "ashby-jobs-api",
     "lever": "lever-jobs-api",
     "workday": "workday-jobs-live",
-    "hn": "hn-toolkit",  # not public yet
-    "trends": "trends-now-multigeo",  # not public yet
+    "hn": "hn-toolkit",
+    "trends": "trends-now-multigeo",
 }
 
 
@@ -205,9 +205,9 @@ class JobsClient:
 
     # -- not public yet --------------------------------------------------
     def hn(self, **run_input):
-        """hn-toolkit (available soon). Pass actor input fields as kwargs."""
+        """hn-toolkit. Pass actor input fields as kwargs."""
         return self.run_actor("hn", run_input)
 
     def trends(self, **run_input):
-        """trends-now-multigeo (available soon). Pass actor input fields as kwargs."""
+        """trends-now-multigeo. Pass actor input fields as kwargs."""
         return self.run_actor("trends", run_input)

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "careersite-jobs"
-version = "0.1.0"
+version = "0.1.1"
 description = "Search job listings from Greenhouse, Lever, Ashby, SmartRecruiters and Workday career sites via Apify actors. Zero dependencies."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -17,6 +17,12 @@ classifiers = [
   "Operating System :: OS Independent",
   "Intended Audience :: Developers",
 ]
+
+[project.urls]
+Homepage = "https://open-career-index.printfilestudio.workers.dev/"
+Repository = "https://github.com/twdatatools/careersite-jobs"
+Issues = "https://github.com/twdatatools/careersite-jobs/issues"
+"Jobs API" = "https://career-index-api.printfilestudio.workers.dev/"
 
 [project.scripts]
 careersite-jobs = "careersite_jobs.cli:main"
