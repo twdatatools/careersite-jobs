@@ -65,6 +65,7 @@ Clear exceptions: `MissingTokenError`, `AuthError` (401), `InsufficientCreditErr
 ## Links
 
 - Browse the open job index: https://open-career-index.printfilestudio.workers.dev/
+- Dataset downloads and API plans: https://open-career-index.printfilestudio.workers.dev/data/
 - No Apify account? Free REST API over the same index: https://career-index-api.printfilestudio.workers.dev/
 - Source and issues: https://github.com/twdatatools/careersite-jobs
 
